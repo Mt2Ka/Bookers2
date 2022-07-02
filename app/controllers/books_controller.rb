@@ -31,7 +31,6 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
     @book2 = Book.new
     @user = @book.user
-    
 
   end
 
